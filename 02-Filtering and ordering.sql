@@ -33,4 +33,3 @@ SELECT *
 FROM renting
 WHERE date_renting BETWEEN '2018-01-01' AND '2018-12-31' -- Renting in 2018
 AND rating IS NOT NULL; -- Rating exists
-
