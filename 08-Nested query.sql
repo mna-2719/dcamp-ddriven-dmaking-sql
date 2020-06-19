@@ -44,5 +44,3 @@ WHERE movie_id IN
      HAVING AVG(rating) > 
 		(SELECT AVG(rating)
 		 FROM renting));
-
-
