@@ -25,5 +25,3 @@ FROM
    FROM actors
    WHERE nationality = 'USA') AS a -- Give the table the name a
 GROUP BY a.gender;
-
-
