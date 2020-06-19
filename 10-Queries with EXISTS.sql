@@ -61,5 +61,3 @@ WHERE EXISTS
 	 WHERE m.genre = 'Comedy'
 	 AND ai.actor_id = a.actor_id)
 GROUP BY a.nationality;
-
-
