@@ -36,5 +36,3 @@ FROM renting
 GROUP BY customer_id
 HAVING COUNT(*) > 7 -- Select only customers with more than 7 movie rentals
 ORDER BY AVG(rating); -- Order by the average rating in ascending order
-
-
