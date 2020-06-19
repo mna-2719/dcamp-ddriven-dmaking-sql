@@ -45,5 +45,3 @@ SELECT
     SUM(rating) AS number_ratings -- Add the total number of ratings here.
 FROM renting
 WHERE date_renting >= '2019-01-01';
-
-
