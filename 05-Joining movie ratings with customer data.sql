@@ -51,5 +51,3 @@ LEFT JOIN movies AS m
 ON m.movie_id = ai.movie_id
 LEFT JOIN actors AS a
 ON a.actor_id = ai.actor_id;
-
-
