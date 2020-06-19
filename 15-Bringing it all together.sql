@@ -98,6 +98,3 @@ WHERE r.movie_id IN (
 	HAVING COUNT(rating) >= 4)
 AND r.date_renting >= '2018-04-01'
 GROUP BY GROUPING SETS ((a.nationality, a.gender), (a.nationality), (a.gender), ()); -- Provide results for all aggregation levels represented in a pivot table
-
-
-
