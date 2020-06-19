@@ -43,5 +43,3 @@ LEFT JOIN customers AS c
 ON r.customer_id = c.customer_id
 GROUP BY ROLLUP (country, genre)
 ORDER BY c.country, m.genre;
-
-
