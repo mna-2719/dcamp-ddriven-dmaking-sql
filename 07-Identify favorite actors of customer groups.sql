@@ -105,5 +105,3 @@ LEFT JOIN movies AS m
 ON m.movie_id = r.movie_id
 WHERE date_renting >= '2019-01-01'
 GROUP BY c.country;
-
-
