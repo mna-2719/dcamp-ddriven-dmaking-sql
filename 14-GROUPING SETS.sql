@@ -45,5 +45,3 @@ LEFT JOIN customers AS c
 ON r.customer_id = c.customer_id
 -- Report all info from a Pivot table for country and gender
 GROUP BY GROUPING SETS ((country, gender), (country), (gender), ());
-
-
