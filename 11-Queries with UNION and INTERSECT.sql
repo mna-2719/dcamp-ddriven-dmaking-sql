@@ -70,5 +70,3 @@ WHERE movie_id IN -- Select all movies of genre drama with average rating higher
     FROM renting
     GROUP BY movie_id
     HAVING AVG(rating)>9);
-
-
